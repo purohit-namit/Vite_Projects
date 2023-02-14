@@ -16,7 +16,7 @@ const FilterTab = ({filterClass, setFilterClass}) => {
   console.log('@np ', filterClass);
   return (
     <>
-      <div>
+      
         {/* <Box> */}
           {/* <Link>Back</Link> */}
           <FormControl fullWidth>
@@ -32,7 +32,7 @@ const FilterTab = ({filterClass, setFilterClass}) => {
             </Select>
           </FormControl>
         {/* </Box> */}
-      </div>
+      
     </>
   );
 };

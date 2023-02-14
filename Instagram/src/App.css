@@ -1,14 +1,19 @@
 body{
   background-color:bisque;
+  /* height: 100vh;
+  border-left: 6px red solid;
+  position: absolute;
+  right: 150px; */
+
 }
 /* .button{
   background-color: black;
   color:gold;
 } */
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   /* text-align: center; */
-}
+} */
 

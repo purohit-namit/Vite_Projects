@@ -1,3 +1,39 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  /* justify-content: center; */
+  /* background-color: bisque; */
+}
+body{
+  background-color: bisque;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+.Box1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Box{
+  display: flex;
+  gap: 350px;
+  /* align-items: center; */
+}
+.LeftSidebar{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  /* text-align: center; */
+  align-items: center;
+  border-right: 2px solid black;
+  height: 100vh;
+  width: 225px;
+  background-color:bisque;
+}
+.MiddleSideBar{
+  justify-content: center;
+  margin-left: 500px;
+}
 /* .Post {
 
     border-radius: 3px;
